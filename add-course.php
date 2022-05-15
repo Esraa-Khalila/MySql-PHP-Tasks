@@ -6,17 +6,15 @@
                 </div>
                 <div class="card-body">
                   <form method='post'>
-             
-            
                         <div class="form-group">
-                          <label class="bmd-label-floating">course name</label>
-                          <input type="text" placeholder="Full Name" name='course_name' required >
+                          <label >course name</label>
+                          <input type="text" placeholder="course name" name='course_name' required >
                         </div>
                       </div>
                         <br> <br>
                         <div class="form-group">
-                          <label class="bmd-label-floating">course description</label>
-                           <input type="text" placeholder="username" name='course_des' required>
+                          <label >course description</label>
+                           <input type="text" placeholder="course description" name='course_des' required>
                         </div>
                       </div>
                  
@@ -24,20 +22,20 @@
                             <br> <br>
              
                         <div class="form-group">
-                          <label class="bmd-label-floating">course department</label>
-                          <input type="text" class="form-control" name='course_dep'>
+                          <label>course department</label>
+                          <input type="text" placeholder="course department" name='course_dep'>
                
                       </div>
                             <br> <br>
                         <div class="form-group">
-                          <label class="bmd-label-floating">course time</label>
-                          <input type="time" class="form-control" name='course_time'>
+                          <label >course time</label>
+                          <input type="time"  name='course_time'>
           
                       </div>
                               <br> <br>
                         <div class="form-group">
-                          <label class="bmd-label-floating">course day</label>
-                          <input type="text" class="form-control" name='course_day'>
+                          <label >course day</label>
+                          <input type="text"  placeholder="course day" name='course_day'>
                
                       </div>
                     </div>
@@ -46,7 +44,7 @@
                        <div class="form-group">
                           
                          
-                         <input type="submit"class="btn btn-primary pull-right" name='submit' value="Add">
+                         <input type="submit" name='submit' value="Add">
                       </div>
                     </div>
                         </center>
@@ -54,7 +52,7 @@
                   </form>
                 </div>
               </div>
-            </div>
+ 
 
 <?php 
 if(isset($_POST['submit']))

@@ -1,6 +1,5 @@
 <?php
-session_start();
-define('SITURL','http://localhost:8080/learn/');
+define('SITURL','http://localhost:8080/mysql-php-tasks/');
 define('LOCALHOST','localhost');    
 define('DB_USERNAME','root');
 define('DB_PASSWORD', '');
@@ -10,5 +9,5 @@ if (!$connect) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
 }
-echo "Connected successfully";
+
 ?>

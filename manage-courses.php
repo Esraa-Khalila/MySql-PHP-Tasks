@@ -1,28 +1,12 @@
 <?php include('./config/constant.php')?>
 
-          
-         
-        
-   
 <center> <h2> courses manage</h2></center>
-         
-
-
  <div class="content">
-        <div class="container-fluid"> 
-          <button style='background:#7b508c'> <a  href="add-course.php">Add course</a> </button>
-          <div class="row">
-           
-            <div class="col-md-12">
+          <button style='background:#7b508c : color:black'> <a  href="add-course.php">Add course</a> </button>
               <div class="card">
-                <div class="card-header card-header-primary">
-                  <h4 class="card-title ">Simple Table</h4>
-                  <p class="card-category"> Here is a subtitle for this table</p>
-                </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table">
-                      <thead class=" text-primary">
+                    <table >
+                      <thead>
                         <th>
                           ID
                         </th>
@@ -66,8 +50,8 @@
                              <td><?php echo  $course_dep ; ?></td>
                              <td><?php echo  $course_time ; ?></td>
                             <td><?php echo  $course_day ; ?></td>
-                              <td> <button class='btnAdmin'style='background:#575a96'><a  href="<?php echo SITURL ?>update.php?id=<?php echo $id;?>">Update Admin</a></button>
-                              <button class='btnDelete' style='background:#a6505a'> <a  href="<?php echo SITURL;?>delete-course.php?id=<?php echo $id;?>">Delete Admin</a></button>
+                              <td> <button class='btnAdmin'style='background:#575a96 ;'><a style='color:white' href="<?php echo SITURL ?>update.php?id=<?php echo $id;?>">Update Admin</a></button>
+                              <button class='btnDelete' style='background:#a6505a;'> <a  style='color:white' href="<?php echo SITURL;?>delete-course.php?id=<?php echo $id;?>">Delete Admin</a></button>
                               </td>
                             </tr>
                              <?php
@@ -84,14 +68,6 @@
               </div>
             </div>
             
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+             
  
       
