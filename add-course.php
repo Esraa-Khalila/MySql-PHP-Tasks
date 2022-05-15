@@ -73,11 +73,11 @@ course_day= '$course_day'
 ";
 $db = mysqli_query($connect , $data);
 if($db==TRUE){
-   echo 'added';
+   header('location:'.SITURL.'manage-courses.php');
  
    
 }else {
-  echo 'not added';
+  header('location:'.SITURL.'add-course.php');
  
 }
 } 
